@@ -1,12 +1,14 @@
 {
   "name": "html-to-xpaths",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Convert html to an array of xpaths",
   "main": "html-to-xpaths.js",
   "scripts": {
     "clean": "rm -f dist/*.js*",
     "test": "mocha test -u bdd -R spec",
     "test:dev": "testem",
+    "build": "npm run clean && npm run build:dist",
+    "build:dist": "babel src --out-dir dist",
     "release": "node bin/next-version.js"
   },
   "repository": {
@@ -24,6 +26,7 @@
     "url": "https://github.com/YasithLokuge/html-to-xpaths/issues"
   },
   "devDependencies": {
+    "babel-cli": "^6.26.0",
     "jquery": "^3.1.1",
     "jsdom": "^16.4.0",
     "jsdom-global": "^3.0.2",
