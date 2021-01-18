@@ -1,0 +1,37 @@
+{
+  "name": "html-to-xpaths",
+  "version": "0.0.1",
+  "description": "Convert html to an array of xpaths",
+  "main": "html-to-xpaths.js",
+  "scripts": {
+    "clean": "rm -f dist/*.js*",
+    "test": "mocha test -u bdd -R spec",
+    "test:dev": "testem",
+    "release": "node bin/next-version.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/YasithLokuge/html-to-xpaths.git"
+  },
+  "keywords": [
+    "html",
+    "xpaths",
+    "xpath",
+    "convert",
+    "traverse"
+  ],
+  "bugs": {
+    "url": "https://github.com/YasithLokuge/html-to-xpaths/issues"
+  },
+  "devDependencies": {
+    "jquery": "^3.1.1",
+    "jsdom": "^16.4.0",
+    "jsdom-global": "^3.0.2",
+    "mocha": "^3.5.3",
+    "semver": "^5.3.0",
+    "should": "^13.2.3"
+  },
+  "homepage": "https://github.com/YasithLokuge/html-to-xpaths",
+  "author": "Yasith Lokuge <yasith1@gmail.com>",
+  "license": "MIT"
+}
