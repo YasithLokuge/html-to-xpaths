@@ -1,6 +1,6 @@
 {
   "name": "html-to-xpaths",
-  "version": "1.0.3",
+  "version": "1.0.5",
   "description": "Convert html to an array of xpaths",
   "main": "src/html-to-xpaths.js",
   "scripts": {
