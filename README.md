@@ -13,4 +13,3 @@ under its [MIT License](LICENSE).
 
 ## Credits
 Based on [Oliver Kovacs's traverse-dom](https://github.com/gawkermedia/traverse-dom)
-and [trincot's answer on Stackoverflow](https://stackoverflow.com/a/43688599)
